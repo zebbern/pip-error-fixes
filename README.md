@@ -1,12 +1,24 @@
-## Pip/Pip3 Error Fixes & Cheet Sheet for pip
+<h2> Pip(3) Error Fixes & Cheet Sheet
+   
+![Status](https://img.shields.io/badge/Status-Active-green) ![pip](https://img.shields.io/badge/Pip--Issues--Solved-22-red)
 
-A comprehensive guide to solve common and uncommon issues with `pip`/`pip3` while installing libraries or resolving errors.
+</h2>
 
+> [!Note]
+> - **Try multiple of the fixes under!**
+> 
+> - **Sometimes its only 1 way to install the `pip-lib` Your trying to get**
 ---
-###  [Activate Virtual Environment Before Installing Pip Libs](#recommended-before-installing-pip-libs)
+## 💡➠ ![Linux|MacOS|Windows](https://img.shields.io/badge/Linux|MacOS|Windows-Fix-black)
+  - **[Activate Virtual Environment Before Installing Pip Libs](#virtual-environment-activate)**
+  - **Activating a `virtual env` usually fixes Most `pip install errors`**
+  - **If that does not work look for your issue under!**
+    
+---
 
-
-###  [Windows Fixes](#windows-fixes)
+##   [Windows Fixes](#windows-fixes) ➠ ![Windows](https://img.shields.io/badge/Windows-Fixes-blue)
+- **If [Activate Virtual Environment](#virtual-environment-activate) did not work you can try these:**
+  
    - [ModuleNotFoundError](#modulenotfounderror)
    - [ERROR: Could not install packages due to an EnvironmentError](#error-could-not-install-packages-due-to-an-environmenterror)
    - [ERROR: Command errored out with exit status 1](#error-command-errored-out-with-exit-status-1)
@@ -17,8 +29,11 @@ A comprehensive guide to solve common and uncommon issues with `pip`/`pip3` whil
    - [pip freeze` not displaying packages](#pip-freeze-not-displaying-packages)
    - [break system packages error windows](#break-system-packages-error-windows)
 
-###   [Linux/macOS Fixes](#linuxmacos-fixes)
+---
 
+##   [Linux/macOS Fixes](#linuxmacos-fixes) ➠ ![Linux|MacOS](https://img.shields.io/badge/Linux|MacOS-Fixes-black)
+- **If [Activate Virtual Environment](#virtual-environment-activate) did not work you can try these:**
+  
    - [ModuleNotFoundError](#modulenotfounderror-1)
    - [ERROR: Could not install packages due to an EnvironmentError](#error-could-not-install-packages-due-to-an-environmenterror-1)
    - [ERROR: Command errored out with exit status 1](#error-command-errored-out-with-exit-status-1-1)
@@ -29,7 +44,10 @@ A comprehensive guide to solve common and uncommon issues with `pip`/`pip3` whil
    - [pip freeze not displaying packages](#pip-freeze-not-displaying-packages-1)
    - [break system packages error linux](#break-system-packages-error-linux)
 
-### [General Pip Commands](#general-pip-commands)
+---
+
+## [General Pip Commands](#general-pip-commands)
+- **Recommended to always [Activate Virtual Environment](#virtual-environment-activate) before installing any pip libs!**
 
    - [Upgrade pip](#upgrade-pip)
    - [Check pip version](#check-pip-version)
@@ -47,9 +65,8 @@ A comprehensive guide to solve common and uncommon issues with `pip`/`pip3` whil
    - [Autoremove unused packages](#autoremove-unused-packages)
 
 ---
-### Recommended Before Installing Pip Libs
 
-#### Virtual Environment Activate
+### Virtual Environment Activate
 
 #### Linux/macOS
 ```bash

@@ -4,7 +4,6 @@ A comprehensive guide to solve common and uncommon issues with `pip`/`pip3` whil
 
 ---
 
-## Table of Contents
 ### Issues Table
 1. [Virtual Environment Commands](#virtual-environment-commands)
 2. [Windows Fixes](#windows-fixes)

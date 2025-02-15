@@ -163,6 +163,8 @@ pip install <package_name>==<specific_version>
 
 </div>
 
+---
+
 #### `ModuleNotFoundError`
 ```bash
 python3 -m pip install --upgrade --force-reinstall <package_name>
@@ -221,6 +223,8 @@ pip install <package_name> --break-system-packages
 ![pip-tips](https://github.com/user-attachments/assets/dda60b27-239a-4fee-b440-9b349b77cadd)
 
 </div>
+
+---
 
 #### Upgrade pip
 ```bash

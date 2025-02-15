@@ -3,36 +3,38 @@
 A comprehensive guide to solve common and uncommon issues with `pip`/`pip3` while installing libraries or resolving errors.
 
 ---
+###  [Activate Virtual Environment Before Installing Pip Libs](#recommended-before-installing-pip-libs)
 
-### Issues Table
-1. [Virtual Environment Commands](#virtual-environment-commands)
-2. [Windows Fixes](#windows-fixes)
-   - [`ModuleNotFoundError`](#modulenotfounderror)
-   - [`ERROR: Could not install packages due to an EnvironmentError`](#error-could-not-install-packages-due-to-an-environmenterror)
-   - [`ERROR: Command errored out with exit status 1`](#error-command-errored-out-with-exit-status-1)
-   - [`ERROR: pip is configured with locations that require TLS/SSL`](#error-pip-is-configured-with-locations-that-require-tlsssl)
+
+###  [Windows Fixes](#windows-fixes)
+   - [ModuleNotFoundError](#modulenotfounderror)
+   - [ERROR: Could not install packages due to an EnvironmentError](#error-could-not-install-packages-due-to-an-environmenterror)
+   - [ERROR: Command errored out with exit status 1](#error-command-errored-out-with-exit-status-1)
+   - [ERROR: pip is configured with locations that require TLS/SSL](#error-pip-is-configured-with-locations-that-require-tlsssl)
    - [SSL Certificate Verification Error](#ssl-certificate-verification-error)
    - [UnicodeDecodeError](#unicodedecodeerror)
-   - [`error: Microsoft Visual C++ 14.0 or greater is required`](#error-microsoft-visual-c-140-or-greater-is-required)
-   - [`pip freeze` not displaying packages`](#pip-freeze-not-displaying-packages)
-   - [`--break-system-packages error`](#break-system-packages-error)
-3. [Linux/macOS Fixes](#linuxmacos-fixes)
-   - [`ModuleNotFoundError`](#modulenotfounderror-1)
-   - [`ERROR: Could not install packages due to an EnvironmentError`](#error-could-not-install-packages-due-to-an-environmenterror-1)
-   - [`ERROR: Command errored out with exit status 1`](#error-command-errored-out-with-exit-status-1-1)
-   - [`ERROR: pip is configured with locations that require TLS/SSL`](#error-pip-is-configured-with-locations-that-require-tlsssl-1)
+   - [error: Microsoft Visual C++ 14.0 or greater is required](#error-microsoft-visual-c-140-or-greater-is-required)
+   - [pip freeze` not displaying packages](#pip-freeze-not-displaying-packages)
+   - [break system packages error windows](#break-system-packages-error-windows)
+
+###   [Linux/macOS Fixes](#linuxmacos-fixes)
+
+   - [ModuleNotFoundError](#modulenotfounderror-1)
+   - [ERROR: Could not install packages due to an EnvironmentError](#error-could-not-install-packages-due-to-an-environmenterror-1)
+   - [ERROR: Command errored out with exit status 1](#error-command-errored-out-with-exit-status-1-1)
+   - [ERROR: pip is configured with locations that require TLS/SSL](#error-pip-is-configured-with-locations-that-require-tlsssl-1)
    - [SSL Certificate Verification Error](#ssl-certificate-verification-error-1)
    - [UnicodeDecodeError](#unicodedecodeerror-1)
-   - [`fatal error: Python.h: No such file or directory`](#fatal-error-pythonh-no-such-file-or-directory)
-   - [`pip freeze` not displaying packages`](#pip-freeze-not-displaying-packages-1)
-   - [`--break-system-packages error`](#break-system-packages-error-1)
+   - [`fatal error: Python.h: No such file or directory](#fatal-error-pythonh-no-such-file-or-directory)
+   - [pip freeze not displaying packages](#pip-freeze-not-displaying-packages-1)
+   - [break system packages error linux](#break-system-packages-error-linux)
 
-### Cheat Sheet Table
-1. [General Pip Commands](#general-pip-commands)
+### [General Pip Commands](#general-pip-commands)
+
    - [Upgrade pip](#upgrade-pip)
    - [Check pip version](#check-pip-version)
    - [Install a package](#install-a-package)
-   - [Install from `requirements.txt`](#install-from-requirementstxt)
+   - [Install from requirements.txt](#install-from-requirementstxt)
    - [Clear pip cache](#clear-pip-cache)
    - [Resolve dependency conflicts](#resolve-dependency-conflicts)
    - [List installed packages](#list-installed-packages)
@@ -45,10 +47,9 @@ A comprehensive guide to solve common and uncommon issues with `pip`/`pip3` whil
    - [Autoremove unused packages](#autoremove-unused-packages)
 
 ---
+### Recommended Before Installing Pip Libs
 
-## Fixes
-
-### Virtual Environment Commands
+#### Virtual Environment Activate
 
 #### Linux/macOS
 ```bash
@@ -115,7 +116,7 @@ pip list
 pip freeze > requirements.txt
 ```
 
-#### `--break-system-packages error`
+#### `break system packages error windows`
 When encountering this error, explicitly allow breaking system packages:
 ```bash
 pip install <package_name> --break-system-packages
@@ -177,7 +178,7 @@ pip list
 pip freeze > requirements.txt
 ```
 
-#### `--break-system-packages error`
+#### `break system packages error linux`
 When encountering this error, explicitly allow breaking system packages:
 ```bash
 pip install <package_name> --break-system-packages
@@ -185,9 +186,7 @@ pip install <package_name> --break-system-packages
 
 ---
 
-## Cheat Sheet
-
-### General Pip Commands
+### Pip Cheet Sheet
 
 #### Upgrade pip
 ```bash

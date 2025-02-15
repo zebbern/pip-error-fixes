@@ -27,7 +27,7 @@
 
 ---
 
-##   [Linux/macOS Fixes](#linuxmacos-fixes) ➠ ![Linux|MacOS](https://img.shields.io/badge/Linux|MacOS-Fixes-black)
+##   [Linux/macOS Fixes](#linux12) ➠ ![Linux|MacOS](https://img.shields.io/badge/Linux|MacOS-Fixes-black)
 - **If [Activate Virtual Environment](#virtual-environment-activate) did not work you can try these:**
   
    - [ModuleNotFoundError](#modulenotfounderror-1)
@@ -42,7 +42,7 @@
 
 ---
 
-## [Pip Command Tips](#pip-command-tips) ➠ ![Linux|MacOS|Windows](https://img.shields.io/badge/Linux|MacOS|Windows-Fix-black)
+## [Pip Tips](#piptips) ➠ ![Linux|MacOS|Windows](https://img.shields.io/badge/Linux|MacOS|Windows-Fix-black)
 - **Recommended to always [Activate Virtual Environment](#virtual-environment-activate) before installing any pip libs!**
 
    - [Upgrade pip](#upgrade-pip)
@@ -87,9 +87,10 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 ---
 
-<a name="windows11"></a>
 <div align="center" 
-  
+
+<a name="windows11"></a>
+
 ![Windows](https://github.com/user-attachments/assets/9b7231bf-ab64-41de-819c-ead7f17f58b6)
 
 </div>
@@ -153,7 +154,14 @@ pip install <package_name>==<specific_version>
 
 ---
 
-## Linux/macOS Fixes
+<div align="center" 
+
+<a name="linux12"></a>
+
+
+![linux-macos](https://github.com/user-attachments/assets/6707e68e-0b44-4ecc-8ae8-7b34c159eae0)
+
+</div>
 
 #### `ModuleNotFoundError`
 ```bash
@@ -206,7 +214,13 @@ pip install <package_name> --break-system-packages
 
 ---
 
-## Pip Cheet Sheet
+<div align="center" 
+
+<a name="piptips"></a>
+
+![pip-tips](https://github.com/user-attachments/assets/dda60b27-239a-4fee-b440-9b349b77cadd)
+
+</div>
 
 #### Upgrade pip
 ```bash

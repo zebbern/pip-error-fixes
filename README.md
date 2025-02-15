@@ -9,14 +9,14 @@
 > 
 > - **Sometimes its only 1 way to install the `pip-lib` Your trying to get**
 ---
-## 💡➠ ![Linux|MacOS|Windows](https://img.shields.io/badge/Linux|MacOS|Windows-Fix-black)
+## Fix 1 ➠ ![Linux|MacOS|Windows](https://img.shields.io/badge/Linux|MacOS|Windows-Fix-black)
   - **[Activate Virtual Environment Before Installing Pip Libs](#virtual-environment-activate)**
   - **Activating a `virtual env` usually fixes Most `pip install errors`**
   - **If that does not work look for your issue under!**
     
 ---
 
-##   [Windows Fixes](#windows-fixes) ➠ ![Windows](https://img.shields.io/badge/Windows-Fixes-blue)
+##   [Windows Fixes](#windows) ➠ ![Windows](https://img.shields.io/badge/Windows-Fixes-blue)
 - **If [Activate Virtual Environment](#virtual-environment-activate) did not work you can try these:**
   
    - [ModuleNotFoundError](#modulenotfounderror)
@@ -46,7 +46,7 @@
 
 ---
 
-## [General Pip Commands](#general-pip-commands)
+## [Pip Command Tips](#pip-command-tips) ➠ ![Linux|MacOS|Windows](https://img.shields.io/badge/Linux|MacOS|Windows-Fix-black)
 - **Recommended to always [Activate Virtual Environment](#virtual-environment-activate) before installing any pip libs!**
 
    - [Upgrade pip](#upgrade-pip)
@@ -66,7 +66,7 @@
 
 ---
 
-### Virtual Environment Activate
+## Virtual Environment Activate
 
 #### Linux/macOS
 ```bash
@@ -91,7 +91,12 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 ---
 
-### Windows Fixes
+
+<div align="center" 
+  
+![Windows](https://github.com/user-attachments/assets/9b7231bf-ab64-41de-819c-ead7f17f58b6)
+
+</div>
 
 #### `ModuleNotFoundError`
 ```bash
@@ -150,7 +155,7 @@ pip install <package_name>==<specific_version>
 
 ---
 
-### Linux/macOS Fixes
+## Linux/macOS Fixes
 
 #### `ModuleNotFoundError`
 ```bash
@@ -203,7 +208,7 @@ pip install <package_name> --break-system-packages
 
 ---
 
-### Pip Cheet Sheet
+## Pip Cheet Sheet
 
 #### Upgrade pip
 ```bash

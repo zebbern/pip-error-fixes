@@ -1,11 +1,16 @@
-### `Error Fixes` & `Cheet Sheet` for `Pip`
+| **What To Expect:**       |  ✓/✘       |
+|---------------------|-----------------------|
+| `Pip/Pip3 Fixes`        | ✓         |
+| `Pip/Pip3 Tips/Cheet Sheet`        | ✓         |
+| `Universal Fixes`        | ✓         |
 
-> [!Note]
-> - **Try multiple of the fixes under!**
-> 
-> - **Sometimes its only 1 way to install the `pip-lib` Your trying to get**
+- **Try multiple fixes listed in the repository!**
+- **Sometimes there's only one specific way to install the `pip-lib` you're trying to get.**
+
 ---
-## Fix 1 ➠ ![Linux|MacOS|Windows](https://img.shields.io/badge/Linux|MacOS|Windows-Fix-black)
+
+## Universal Fix ➠ ![Linux|MacOS|Windows](https://img.shields.io/badge/Linux|MacOS|Windows-Fix-black)
+
   - **[Activate Virtual Environment Before Installing Pip Libs](#virtual-environment-activate)**
   - **Activating a `virtual env` usually fixes Most `pip install errors`**
   - **If that does not work look for your issue under!**

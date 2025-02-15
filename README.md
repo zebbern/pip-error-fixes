@@ -1,8 +1,4 @@
-<h2> Pip(3) Error Fixes & Cheet Sheet
-   
-![Status](https://img.shields.io/badge/Status-Active-green) ![pip](https://img.shields.io/badge/Pip--Issues--Solved-22-red)
-
-</h2>
+### `Error Fixes` & `Cheet Sheet` for `Pip`
 
 > [!Note]
 > - **Try multiple of the fixes under!**
@@ -16,7 +12,7 @@
     
 ---
 
-##   [Windows Fixes](#windows) ➠ ![Windows](https://img.shields.io/badge/Windows-Fixes-blue)
+##   [Windows Fixes](#windows11) ➠ ![Windows](https://img.shields.io/badge/Windows-Fixes-blue)
 - **If [Activate Virtual Environment](#virtual-environment-activate) did not work you can try these:**
   
    - [ModuleNotFoundError](#modulenotfounderror)
@@ -91,12 +87,14 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
 
 ---
 
-
+<a name="windows11"></a>
 <div align="center" 
   
 ![Windows](https://github.com/user-attachments/assets/9b7231bf-ab64-41de-819c-ead7f17f58b6)
 
 </div>
+
+---
 
 #### `ModuleNotFoundError`
 ```bash

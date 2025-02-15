@@ -1,11 +1,6 @@
-| **What To Expect:**       |  ✓/✘       |
-|---------------------|-----------------------|
-| `Pip/Pip3 Fixes`        | ✓         |
-| `Pip/Pip3 Tips/Cheet Sheet`        | ✓         |
-| `Universal Fixes`        | ✓         |
-
-- **Try multiple fixes listed in the repository!**
-- **Sometimes there's only one specific way to install the `pip-lib` you're trying to get.**
+> [!Tip]
+> - **Try multiple fixes listed in the repository!**
+> - **Sometimes there's only one specific way to install the `pip-lib` you're trying to get.**
 
 ---
 

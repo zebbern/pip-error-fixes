@@ -1,7 +1,10 @@
 <div align="center">
 
 <img src="https://github.com/user-attachments/assets/6872b9b4-6b9b-4c63-a0fc-b70b356241e4" width="25%">
-      
+
+![Python](https://img.shields.io/badge/Python-3.x-blue)
+![Status](https://img.shields.io/badge/Status-Active-green)
+![License](https://img.shields.io/badge/License-MIT-brightgreen)
 
 ## ![Linux|MacOS|Windows](https://img.shields.io/badge/Linux|MacOS|Windows-Fix-black)
 

@@ -2,22 +2,23 @@
 
 <img src="https://github.com/user-attachments/assets/6872b9b4-6b9b-4c63-a0fc-b70b356241e4" width="25%">
       
-</div>
 
+## ![Linux|MacOS|Windows](https://img.shields.io/badge/Linux|MacOS|Windows-Fix-black)
+
+   **[Activate Virtual Environment Before Installing Pip Libs](#virtual-environment-activate)**
+   
+   **Activating a `virtual env` usually fixes Most `pip install errors`**
+   
+   **If that does not work look for your issue under!**
+
+</div>
 
 
 > [!Tip]
 > - **Try multiple fixes listed in the repository!**
 > - **Sometimes there's only one specific way to install the `pip-lib` you're trying to get.**
 
----
 
-## Universal Fix ➠ ![Linux|MacOS|Windows](https://img.shields.io/badge/Linux|MacOS|Windows-Fix-black)
-
-  - **[Activate Virtual Environment Before Installing Pip Libs](#virtual-environment-activate)**
-  - **Activating a `virtual env` usually fixes Most `pip install errors`**
-  - **If that does not work look for your issue under!**
-    
 ---
 
 ##   [Windows Fixes](#windows11) ➠ ![Windows](https://img.shields.io/badge/Windows-Fixes-blue)
